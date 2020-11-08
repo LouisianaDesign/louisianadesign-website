@@ -78,11 +78,11 @@ ul {list-style-position:inside;}
 /*#content .col2.padding {margin-left:20px;}*/
 #content h3 {margin-bottom:20px; font-size:40px; text-align:center;}
 footer {margin-bottom:20px;}
-footer .bar {overflow:hidden; padding:20px 30px; line-height:24px; background:rgba(255, 255, 255, 0.8);}
+footer .bar {overflow:hidden; padding:10px 30px; line-height:40px; background:rgba(255, 255, 255, 0.8);}
 footer .float-left {}
-footer .float-right a {display:block; float:left; width:24px; height:24px; margin-left:5px; border:0; background:url(/_includes/assets/img/sprite-icons.png); text-indent:-9999px; opacity:0.85;}
-footer .float-right a.fb {background-position:0 0;}
-footer .float-right a.tw {background-position:-24px 0;}
+footer .float-right a {display:inline-block; width:40px; height:40px; border:0; text-indent:-9999px; opacity:0.85;}
+footer .float-right a.fb {background:url(/_includes/assets/img/icon-facebook.png) center center no-repeat;}
+footer .float-right a.tw {background:url(/_includes/assets/img/icon-twitter.png) center center no-repeat;}
 footer .float-right a:hover {opacity:1;}
 
 
