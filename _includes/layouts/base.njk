@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include "components/head.njk" %}
+
+	{% set pageSlug %}
+		{% if permalink == '/' %}
+			page-home
+		{% else %}
+			page-{{permalink | replace("index.html", "") | slug}}
+		{% endif %}
+	{% endset %}
+
+	<body id="{{ pageSlug | trim}}">
+		<div id="main" class="container">
+			<div id="header">
+				<a href="/" class="home">HOME</a>
+				<div class="nav">
+					<a href="/volunteer"><span>Volunteer</span>Reserve your Seat</a>
+					<!--<a href="/nominate"><span>Nominate A Non-Profit</span>To Receive A Free Website</a>-->
+				</div>
+			</div>
+			<div id="content">
+				{{ layoutContent | safe }}
+			</div>
+		</div>
+
+		{% include "components/footer.njk" %}
+	</body>
+</html>

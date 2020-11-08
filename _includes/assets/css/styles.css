@@ -1,0 +1,109 @@
+/*div {outline:1px dotted blue;}*/
+
+@font-face {
+    font-family:'FranchiseRegular';
+    src:url('/_includes/assets/fonts/franchise-bold-hinted-webfont.eot');
+    src:url('/_includes/assets/fonts/franchise-bold-hinted-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/_includes/assets/fonts/franchise-bold-hinted-webfont.woff') format('woff'),
+        url('/_includes/assets/fonts/franchise-bold-hinted-webfont.ttf') format('truetype'),
+        url('/_includes/assets/fonts/franchise-bold-hinted-webfont.svg#franchiseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Resets*/
+html, body {/*height:100%;*/ text-align:center;}
+body, h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+body {color:#999; font-size:14px; font-family:Arial, Helvetica, sans-serif; background:url(/_includes/assets/img/background.jpg) no-repeat; background-attachment:fixed; background-size:cover;}
+a img {border:0;}
+a {text-decoration:none; color:#000; border-bottom:1px dotted #00B6EA;}
+a:hover {text-decoration:none;}
+ul {list-style-position:inside;}
+table {border-collapse:collapse; border-spacing:0;}
+td, th {padding:0;}
+:focus {outline:0;}
+h1, h2, h3, h4, h5, h6 {font-family:'FranchiseRegular'; font-size:60px; text-transform:uppercase; margin-bottom:20px; color:#000; font-weight:normal;}
+h2 {margin-bottom:20px;}
+
+input,
+select,
+textarea {padding:10px 0; border-radius:5px; text-indent:10px; border:1px solid #EEE!important;}
+input[type="submit"] {background:#007F75; color:#FFF; text-indent:0; padding:10px 20px; width:100%;}
+
+/*Global*/
+.float-left {float:left;}
+.float-right {float:right;}
+.clear {clear:both;}
+.w-50 {width:50%;}
+.w-100 {width:100%;}
+.container {width:820px; margin:0 auto;}
+ul {list-style-position:inside;}
+#main {background:url(/_includes/assets/img/la-designathon-20152.png) no-repeat top center; /*padding-bottom:10px;*/ padding-top:420px; position:relative; z-index:2;}
+
+#header {overflow:hidden; position:absolute; left:0; top:0; width:100%;}
+#header .home {display:block; width:100%; height:405px; margin:0 auto; border:0; text-indent:-9999px;}
+#header .nav .btn {}
+#header .nav a {
+	display:block;
+	/*float:left;*/
+	width:400px;
+	color:#FFF;
+	margin:40px auto 10px auto;
+	padding:11px 0;	
+	border:0;	
+	position:relative;
+	background:url(/_includes/assets/img/bg-btn.jpg) repeat-x;
+	background:#2b958c;
+	font-family:Georgia;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	text-shadow:1px 1px 3px #000;
+	filter:dropshadow(color=#000, offx=1, offy=1);
+	-webkit-box-shadow:1px 1px 0px 0px #333;
+	box-shadow:1px 1px 0px 0px #333;
+}
+#header .nav a:hover {background-position:0 -90px; background:#007F75;}
+#header .nav a:after {display:block; position:absolute; bottom:-15px; width:400px; content:"."; text-indent:-9999px; background:url(/_includes/assets/img/bg-btn-shadow.png);}
+#header .nav a span {display:block; font-size:50px; font-family:'FranchiseRegular'; letter-spacing:normal;}
+/*#header .nav a:last-child {margin-left:20px;}*/
+
+#content {margin-top:60px; line-height:25px; text-align:justify;}
+#content .col1,
+#content .col2 {padding:30px; background:rgba(255, 255, 255, 0.85);}
+#content .col1 {width:760px; margin-bottom:20px;}
+#content .col2 {width:340px; margin-bottom:20px;}
+/*#content .col2.padding {margin-left:20px;}*/
+#content h3 {margin-bottom:20px; font-size:40px; text-align:center;}
+footer {margin-bottom:20px;}
+footer .bar {overflow:hidden; padding:20px 30px; line-height:24px; background:rgba(255, 255, 255, 0.8);}
+footer .float-left {}
+footer .float-right a {display:block; float:left; width:24px; height:24px; margin-left:5px; border:0; background:url(/_includes/assets/img/sprite-icons.png); text-indent:-9999px; opacity:0.85;}
+footer .float-right a.fb {background-position:0 0;}
+footer .float-right a.tw {background-position:-24px 0;}
+footer .float-right a:hover {opacity:1;}
+
+
+#content .col1,
+#content .col2,
+footer {-webkit-box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.1); box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.1);}
+#content .col1,
+#content .col2{text-align:center; padding:80px 30px;}
+
+/*Form Resets and Hacks*/
+#form {margin:0 auto;}
+form {text-align:left;}
+form label {width:100%; font-weight:bold;}
+form input[type=text],
+form input[type=email],
+form textarea {width:100%;}
+form input[type=checkbox] {}
+form .form-group {margin-bottom:10px;}
+
+form #selects,
+form #radios {border-bottom:1px solid #EEE; margin-bottom:20px; padding-bottom:20px;}
+
+form #selects label,
+form #radios label {font-weight:normal;}

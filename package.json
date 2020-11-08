@@ -1,0 +1,24 @@
+{
+  "name": "louisianadesign-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisianaDesign/louisianadesign-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisianaDesign/louisianadesign-website/issues"
+  },
+  "homepage": "https://github.com/LouisianaDesign/louisianadesign-website#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "dotenv": "^8.2.0",
+    "slugify": "^1.4.6"
+  }
+}

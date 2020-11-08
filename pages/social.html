@@ -1,0 +1,53 @@
+---
+layout: layouts/page.njk
+title: Social
+section: social
+date: 2018-01-01
+permalink: /social/index.html
+---
+
+<div class="col1">
+	<iframe
+		width="750"
+		height="454"
+		src="http://www.ustream.tv/embed/12542020?ub=ff3d23&amp;lc=ff3d23&amp;oc=ffffff&amp;uc=ffffff&amp;v=3&amp;wmode=direct"
+		scrolling="no"
+		frameborder="0"
+		style="border:0px none transparent;"></iframe>
+	<br />
+	<a href="http://www.ustream.tv/" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: center;" target="_blank">Streaming Live by Ustream</a>
+</div>
+<div class="col1">
+	<h2>Twitter Feed</h2>
+	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	<script>
+		new TWTR.Widget({
+			version: 2,
+			type: 'profile',
+			rpp: 10,
+			interval: 30000,
+			width: 750,
+			height: 550,
+			theme: {
+				shell: {
+					background: 'transparent',
+					color: 'black'
+				},
+				tweets: {
+					background: '#transparent',
+					color: 'black',
+					links: '#000'
+				}
+			},
+			features: {
+				scrollbar: true,
+				loop: false,
+				live: false,
+				hashtags: true,
+				timestamp: true,
+				avatars: true,
+				behavior: 'default'
+			}
+		}).render().setUser('DesignLouisiana').start();
+	</script>
+</div>

@@ -1,0 +1,135 @@
+---
+layout: layouts/page.njk
+title: Volunteer
+section: volunteer
+date: 2018-01-01
+permalink: /volunteer/index.html
+---
+
+<div class="col1">
+	<h2>Volunteers</h2>
+	Fill out the form below to volunteer for the 2015 Louisiana Designathon.<br><br>
+
+	<div id="form" style="width:375px;">
+		<form name="volunteers" method="post" data-netlify="true">
+			<div>
+				* (denotes required field)
+			</div>
+			<div class="form-group">
+				<label for="field-first-name">First Name *</label>
+				<input type="text" id="field-first-name" name="first-name" required>
+			</div>
+			<div class="form-group">
+				<label for="field-last-name">Last Name *</label>
+				<input type="text" id="last-name" name="last-name" required>
+			</div>
+			<div class="form-group">
+				<label for="field-email-address">Email Address *</label>
+				<input type="email" id="field-email-address" name="email-address" required>
+			</div>
+			<div class="form-group">
+				<label for="field-phone-number">Phone Number</label>
+				<input type="text" is="field-phone-number" name="phone-number">
+			</div>
+			<div class="form-group">
+				<label for="field-comments">Comments</label>
+				<textarea id="comments" name="comments" rows="10" placeholder="Comments"></textarea>
+			</div>
+
+			<div>
+				<label>Skills<span class="required"> *</span></label>
+			</div>
+			<div id="selects">
+				<div class="form-group float-left w-50">
+					<label for="skills-graphic-design">
+						<input type="checkbox" id="skills-graphic-design" name="graphic-design" value="Graphic Design"> Graphic Design
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="skills-web-design">
+						<input type="checkbox" id="skills-web-design" name="web-design" value="Web Design"> Web Design
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="skills-front-end">
+						<input type="checkbox" id="skills-front-end" name="front-end" value="Web Dev (Front-End)"> Web Dev (Front-End)
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="skills-back-end">
+						<input type="checkbox" id="skills-back-end" name="back-end" value="Web Dev (Back-End)"> Web Dev (Back-End)
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="skills-marketing">
+						<input type="checkbox" id="skills-marketing" name="marketing" value="Marketing"> Marketing
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="skills-video-editing">
+						<input type="checkbox" id="skills-video-editing" name="video-editing" value="Video Editing"> Video Editing
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="skills-public-relations">
+						<input type="checkbox" id="skills-public-relations" name="public-relations" value="Public Relations"> Public Relations
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="skills-copyrighting">
+						<input type="checkbox" id="skills-copyrighting" name="copyrighting" value="Copywriting"> Copywriting
+					</label>
+				</div>
+			</div>
+
+			<div class="radios">
+				<label>Strongest Skill<span class="required"> *</span></label>
+			</div>
+			<div id="radios">
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-graphic-design">
+						<input type="radio" id="strongest-skill-graphic-design" name="strongest-skill" value="Graphic Design"> Graphic Design
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-web-design">
+						<input type="radio" id="strongest-skill-web-design" name="strongest-skill" value="Web Design"> Web Design
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-front-end">
+						<input type="radio" id="strongest-skill-front-end" name="strongest-skill" value="Web Dev (Front-End)"> Web Dev (Front-End)
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-back-end">
+						<input type="radio" id="strongest-skill-back-end" name="strongest-skill" value="Web Dev (Back-End)"> Web Dev (Back-End)
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-marketing">
+						<input type="radio" id="strongest-skill-marketing" name="strongest-skill" value="Marketing"> Marketing
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-video-editing">
+						<input type="radio" id="strongest-skill-video-editing" name="strongest-skill" value="Video Editing"> Video Editing
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-public-relations">
+						<input type="radio" id="strongest-skill-public-relations" name="strongest-skill" value="Public Relations"> Public Relations
+					</label>
+				</div>
+				<div class="form-group float-left w-50">
+					<label for="strongest-skill-copyrighting">
+						<input type="radio" id="strongest-skill-copyrighting" name="strongest-skill" value="Copywriting"> Copywriting
+					</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+</div>
