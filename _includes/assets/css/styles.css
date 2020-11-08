@@ -54,7 +54,7 @@ ul {list-style-position:inside;}
 	border:0;	
 	position:relative;
 	background:url(/_includes/assets/img/bg-btn.jpg) repeat-x;
-	background:#2b958c;
+	background-color:#2b958c;
 	font-family:Georgia;
 	text-align:center;
 	text-transform:uppercase;
